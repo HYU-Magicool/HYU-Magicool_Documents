@@ -1,2 +1,2 @@
 # SE_DOC
-document for software enjineering
+document for software engineering
