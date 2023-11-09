@@ -1,2 +1,2 @@
-# Freshkeeper_Documents
-document for software engineering
+# magiCool_Documents
+Latex Document for software engineering course.
