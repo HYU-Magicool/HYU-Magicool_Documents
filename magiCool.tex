@@ -13,31 +13,32 @@
 
 \begin{document}
 
-\title{magiCool\\
+\title{Magicool\\
 {\footnotesize \large Keeping food fresh for early morning deliveries}}
 
-\author{\IEEEauthorblockN{1\textsuperscript{st} Lee JunYoung}
+\author{\IEEEauthorblockN{Chung YouBeen}
+\IEEEauthorblockA{\textit{dept. of Information Systems} \\
+\textit{Hanyang University}\\
+Seoul, Republic of Korea \\
+youbeen0308@gmail.com}
+\and
+\IEEEauthorblockN{Lee JunYoung}
 \IEEEauthorblockA{\textit{dept. of Information Systems} \\
 \textit{Hanyang University}\\
 Seoul, Republic of Korea \\
 leewnsdud123@gmail.com}
 \and
-\IEEEauthorblockN{2\textsuperscript{nd} Park SeokWon}
+\IEEEauthorblockN{Park SeokWon}
 \IEEEauthorblockA{\textit{dept. of Information Systems} \\
 \textit{Hanyang University}\\
 Seoul, Republic of Korea \\
 xylitolfrog@gmail.com}
-\and
-\IEEEauthorblockN{3\textsuperscript{rd} Chung YouBeen}
-\IEEEauthorblockA{\textit{dept. of Information Systems} \\
-\textit{Hanyang University}\\
-Seoul, Republic of Korea \\
-youbeen0308@gmail.com}
+
 }
 \maketitle
 
 \begin{abstract}
-magiCool is a mobile application service designed to address the concerns people encounter when using early-Morning deliveries: ensuring the preservation of refrigerated food that being delivered. This platform empowers individuals to make sustainable choices while enjoying the convenience of courier services and keeping their food fresh. magiCool is also designed to address the environmental concerns that emerge during the courier delivery, since waste such as ice packs are generated during courier delivery to maintain the freshness of food. The magiCool service offers a comprehensive solution for users by combining the following key features: It encourages sustainable courier delivery practices by reducing unnecessary packaging,  Users can seamlessly select eco-friendly delivery options, track their packages, and minimize the environmental impact of their shipments. With our service, people can utilize AI speakers to receive voice notifications for estimated time of arrival of goods confirmations, and generative AI technology to offer healthier alternatives to the food user order. 
+Magicool is a mobile application service designed to address the concerns people encounter when using early-Morning deliveries: ensuring the preservation of refrigerated food that being delivered. This platform empowers individuals to make sustainable choices while enjoying the convenience of courier services and keeping their food fresh. magiCool is also designed to address the environmental concerns that emerge during the courier delivery, since waste such as ice packs are generated during courier delivery to maintain the freshness of food. The magiCool service offers a comprehensive solution for users by combining the following key features: It encourages sustainable courier delivery practices by reducing unnecessary packaging,  Users can seamlessly select eco-friendly delivery options, track their packages, and minimize the environmental impact of their shipments. With our service, people can utilize AI speakers to receive voice notifications for estimated time of arrival of goods confirmations, and generative AI technology to offer healthier alternatives to the food user order. 
 magiCool is a service committed to promoting sustainability, reducing waste, and enhancing the overall user experience in terms of refrigerator. By utilizing this innovative service, users can actively contribute to a greener planet while enjoying the benefits of fresher food, streamlined courier delivery services, and ease of refrigerator management.  
 
 \end{abstract}
@@ -90,7 +91,14 @@ Since the development of the first refrigerator, refrigerators have been an inte
 The era of "one household, one appliance" has come to an end, and the era of "one activity, one appliance" has begun. Instead of using a single appliance for a variety of activities, the trend is to purchase additional appliances for specific purposes. In the past, it was common for households to have only one major home appliance, such as a television and a refrigerator, which are essential for daily life. In recent years, as Korean consumers' incomes have reached the level of the world's most advanced economies and the electronics industry has made it possible to introduce low- and mid-priced appliances through technological advancements, more and more consumers, even those who are not wealthy, are purchasing multiple appliances with the same function.
 
 
-
+\begin{figure}[h]
+        \centerline{
+            \includegraphics[width=6cm,height=8cm]{미래의 집.png}
+        }
+    \label{fig}
+    \caption{The built-in refrigerator of the future (near the front door, with the refrigerator door opening into the hallway so that the delivery person can put the package in.)}
+    \end{figure}
+    
 \subsection{Motivation}
 
 The advent of smart home technology has brought about a paradigm shift in the way we interact with our everyday appliances. Refrigerators, once considered a humble and indispensable part of our lives, have now been reimagined as sophisticated devices in the era of LG's smarthome services. As part of this transformative journey, the development of the Freshkeeper application emerges as a remarkable innovation, one that promises to enhance the way we manage the contents of our refrigerators.
@@ -106,9 +114,23 @@ In this idea, our team would like to present magiCool mobile application service
     According to the Korea Integrated Logistics Association, 8.59 million parcels were delivered to someone's doorstep on a weekday in 2018. The average number of packages a person receives in a year is 49. With the rapid expansion of the e-commerce market, the number of couriers has increased dramatically. The problem of excessive packaging has become more serious with the proliferation of fresh food delivery, which requires more packaging than regular delivery.
     The amount of packaging consumed for an order of four to five food items. Frozen products are packed in Styrofoam, regular food in paper boxes, and refrigerated food in insulated bags. 
     Fresh food delivery relies on fast delivery to preserve the freshness of the food. You can place your order the day before and have it on your doorstep the next morning. Because of the fast delivery, people often order small amounts of items on a case-by-case basis. Individually packaged, individually shipped items create more packaging waste. Not only are frozen and refrigerated foods packaged separately, but additional packaging materials such as ice packs are also considerable. 
+        \begin{figure}[h]
+            \centerline{
+                \includegraphics[width=5cm,height=9cm]{다운로드.jpg}
+            }
+        \label{fig}
+        \caption{ Growing waste in shipping}
+        \end{figure}
     
     \item Leaving personal items in the hallway in front of the front door is dangerous. \par
     Leaving items in apartment entrance hallways is generally prohibited, and there are several reasons for this. Items can impede evacuation or block emergency escape routes in the event of a fire, and they can be a nuisance to other residents. Additionally, since the entrance hallway is a common area of the building, items can make it difficult to maintain cleanliness, as well as cause visual clutter. As a result, it's important to follow building rules and avoid leaving items in the entrance hallway for safety and cleanliness reasons.
+    \begin{figure}[h]
+            \centerline{
+                \includegraphics[width=7cm,height=9cm]{SSG에서 회수해가지 않은 알비백.jpg}
+            }
+        \label{fig}
+        \caption{Eco-friendly shipping bags that are not reclaimed by businesses}
+        \end{figure}
     
     \item Shipping system inconvenience \par
     Currently, domestic delivery services such as Ecommerce place an order after a user places an order, load the order history, and send an ETA notification to ensure it arrives safely at the customer's address. However, real-time tracking is difficult, so sometimes real-time delivery tracking is inaccurate or delayed. This can create uncertainty for customers about when they'll receive their goods. In the early morning delivery case, if the item is not picked up on time, it may be left unattended until the user returns home.
@@ -175,15 +197,20 @@ Our service was designed to target consumers who frequently use early morning de
 
 \section{Requirements}
 
+\subsection{Signup}
+Users must create an account, which is a unique ID, to use our service. You can also easily sign up and log in through SNS social login, Kakao, Naver, and Google Login APIs. 
+
 \subsection{Mobile Application}
 The primary requirement is the development of a mobile application specifically designed for the Android OS. The purpose of this application is to reduce disposable items used for early morning deliveries and keep ingredients fresh to provide users richer life.
+
 
 \subsection{Login/Logout}
 Login allows users to access their personalized accounts or profiles within the app. It enhances user experience and ensures the security of user data. Logout ends user’s current session and prevent unauthorized access of the user account, protecting user privacy.
 \subsection{Settings}
 Setting allows user to customize their preferences when using mobile app to enhance their user experience.
 \subsection{Tabs}
-There must be a 4 navigators at the bottom of the display each of them is named ‘Main’, ‘Devices’, ‘Analysis’, ‘My Page’.
+There must be a 4 navigators at the bottom of the display each of them is named ‘Main’, ‘Devices’, ‘Report’, ‘Setting’.
+
 \subsection{Coupang API}
 Coupang API helps our service implement several functions: notifying delivery date/time estimation, loading personal purchase history, etc.
 
@@ -193,6 +220,9 @@ The application should have the capability to retrieve information related to LG
 
 \subsection{Adding Items}
 The core functionality involves the addition of items to be stored within the user's refrigerator. The application should present a predefined list of commonly stored items in refrigerators, including essential details such as item name and expiration date. Additionally, users should be able to manually input items and their associated information if they are not found in the predefined list.
+
+\subsection{Utilizing Generative AI ChatGPT}
+We added the option to load the user's order history and select healthy substitutions to create a "Healthy Dishes Generator" function. To do this, we get a KEY value that utilizes Open AI's API. You can also input the items that the user has purchased to create a healthy meal recipe, or you can use it as a function that learns from the user's order history and recommends healthier alternatives.
 
 \subsection{Light Detection System}
 Photoresisters, a sensor which change its resistance when get light, are utilized to apprehend the volume of meterials inside the refrigerator. Approximate volume measurement is available through the photoresister installed step-by-step, such as the step: 0, 25, 50, 75, 100.
@@ -328,7 +358,7 @@ Frontend \par Developer
 & Park \par SeokWon 
 & A Frontend Developer is responsible for designing and developing the user interface (UI) of web and mobile applications. They use web technologies like HTML, CSS, and JavaScript to build the visual components of web pages and apps that users interact with, enhancing the user experience. \\
 \hline
-UI/UX Product \par Designer
+UI/UX \par Product \par Designer
 & Chung \par YouBeen 
 & A UI/UX Product Designer is responsible for user experience (UX) and user interface (UI) design. They optimize the design of applications or websites to make them intuitive for users. UX designers understand user requirements, while UI designers implement them visually.
  \\
@@ -337,37 +367,100 @@ UI/UX Product \par Designer
 \end{table}
 
 \section{Specifications}
-Freshkeeper provides users with a variety of features to make early morning delivery convenient and fresh while using their LG refrigerators. The Freshkeeper is a mini fridge that can be placed near the front door for early morning delivery users. As the number of consumers using early morning delivery has exploded, the amount of waste generated has become a social problem. Therefore, we want to present a mini portable refrigerator that provides refrigeration by using our service, and appeal to the fact that it can be stored anywhere at the moment when refrigeration is needed. 
+Magicool provides users with a variety of features to make early morning delivery convenient and fresh while using their LG refrigerators. The magicool is a mini fridge that can be placed near the front door for early morning delivery users. As the number of consumers using early morning delivery has exploded, the amount of waste generated has become a social problem. Therefore, we want to present a mini portable refrigerator that provides refrigeration by using our service, and appeal to the fact that it can be stored anywhere at the moment when refrigeration is needed. 
 When users stored in the database access the application, they are provided with the following key features. \\
 (The app screen hasn't been configured yet, so we couldn't attach it. Therefore, Our team put the overall structure in the form of a graphical diagram. And we will explain the main functions and update it with images as soon as the screen configuration is completed. )
-\begin{figure}[htbp]
-\centerline{\includegraphics[width=9cm,height=9cm]{다이어그램.jpg}}
-\caption{Overall Process}
-\label{fig}
-\end{figure}
+    \begin{figure}[h]
+        \centerline{
+            \includegraphics[width=9.5cm,height=8cm]{다이어그램2.jpg}}
+    \label{fig}
+    \caption{Overall Process}
+        \end{figure}
 
 \subsection{login and sign-up}
 This page requires users to sign up to create an account and then sign in to use this service. The login page is used for user authentication. Because the application handles the user's shipping order information, estimated time of arrival, etc.
 user's information, all user's information associated with the shipping service must be stored based on a unique email user account.
 
+    \begin{figure}[h]
+        \centerline{
+            \includegraphics[width=5cm,height=9cm]{Login_page_input.jpg}
+        }
+    \label{fig}
+    \caption{Login Page}
+    \end{figure}
+
+    \begin{figure}[h]
+    \centerline{
+        \includegraphics[width=5cm,height=9cm]{Signup_page.jpg}
+    }
+    \label{fig}
+    \caption{Signup Page}
+    \end{figure}
+
 \subsection{Main Page}
 The main page will provide a dashboard of frequently requested items at a glance, and we'll also be adding a quick launch feature for the NUGU AI speaker.
+
+    \begin{figure}[h]
+    \centerline{
+        \includegraphics[width=5cm,height=9cm]{Home_tab_택배 예정_스피커연동.jpg}
+    }
+    \label{fig}
+    \caption{Main tab}
+    \end{figure}
 
 \subsection{Healthy Dishes Generator}
 Utilizing ChatGPT, a generative AI, we plan to add an option to load the user's order history and select healthy ingredients that can be substituted with healthy ingredients to create a "Healthy Dishes Generator" feature. \par
  ex ) If you ordered sugar → How about using stevia instead next time? Or Butter → vegetable oil 
 This is a feature that allows user to 'input' purchases list and either 1) create a healthy meal recipe or 2) learn from user's past orders and create healthier alternatives. 
+    \begin{figure}[h]
+    \centerline{\includegraphics[width=5cm,height=9cm]{리포트 탭.jpg}}
+    \caption{Report Tab}
+    \label{fig}
+    \end{figure}
+
+    \begin{figure}[h]
+        \centerline{\includegraphics[width=5cm,height=9cm]{리포트 탭-1.jpg}}
+    \label{fig}
+    \caption{Report Tab : Healthy alternatives button recommendations by Chat GPT}
+    \end{figure}
+
 \subsection{Mini Fridge (Freshkeeper) to Main Fridge (LG model) Integration}
 We can utilize mobile APIs and sensors to check what's inside the mini fridge.Real time check: Check the items inside using the weight sensor.
 Notification: If the weight sensor is 'true' for a certain period of time send a notification (like checking the mailbox)
 Sleep mode: Customize the mini fridge to run when no deliveries are scheduled, etc.
+    \begin{figure}[h]
+        \centerline{\includegraphics[width=5cm,height=9cm]{디바이스 탭 - 연결 X.jpg}}
+    \label{fig}
+    \caption{Devices tab-Adding products}
+    \end{figure}
+  \begin{figure}[h]
+        \centerline{\includegraphics[width=5cm,height=9cm]{디바이스 탭.jpg}}
+    \label{fig}
+    \caption{Devices tab-Fridge thermostat and lock features}
+    \end{figure}
+    
 Wake-up notification: When the user wakes up in the morning and opens the main fridge, know that the user is awake and notify the mini fridge that an item has been delivered (send a push message) or through the speaker.
+
 
 \subsection{Coupang OPEN API Integration}
 To connect to Coupang OPEN API, we will develop according to the guide, such as searching for products and checking product registration status on the Coupang Developers site. This feature allows that user can see the status of an item, whether it's being prepared, refunded, or placed on order. We're also working on a technology that, when applied to 'sleep mode', will check the estimated arrival time and turn on the refrigerator in time to avoid disturbing you in the wee hours of the morning. If the product is delivered but the weight sensor is false, we are also thinking about checking the image to prevent non-delivery errors. 
 \subsection{Utilizing NUGU AI Speaker}
 Utilizing the NUGU SDK provided by SK Telecom's NUGU developers, we will create AI services by connecting the NUGU platform to internet-connected devices and our applications. 
 In our FreshKeeper mobile app, users can check the estimated arrival time based on voice recognition, receive an alert if the door is not closed, and remotely open the door of the mini fridge. 
+    \begin{figure}[h]
+        \centerline{\includegraphics[width=5cm,height=9cm]{Home_tab_스피커 활성화.jpg}}
+    \label{fig}
+    \caption{Activate SKT NUGU AI Speaker}
+    \end{figure}
+
 \subsection{My Page / Settings}
 On this page, user can set privacy settings or link LG Refrigerator device here.
+    \begin{figure}[h]
+    \centerline{
+        \includegraphics[width=5cm,height=9cm]{마이페이지 탭.jpg}
+    }
+    \label{fig}
+    \caption{MY page Tab}
+    \end{figure}
 \end{document}
+
